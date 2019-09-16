@@ -24,9 +24,9 @@ def callback():
     user = decoded['originalDetectIntentRequest']['payload']['data']['replyToken']
     #userText = decoded['queryResult']['intent']['displayName']
     userText = decoded['queryResult']['intent']['displayName']
-    if (userText =='สวัสดี')
+    if (userText =='สวัสดี'):
        sendText(user == 'เออดีด้วย') 
-    elif (userText=='ไปนะ')
+    elif (userText=='ไปนะ'):
        sendText(user, 'จะไปตายที่ไหนก็ไป') 
     else :   
         sendText(user,'ว่าไงนะ')
